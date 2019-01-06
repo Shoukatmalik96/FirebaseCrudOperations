@@ -26,5 +26,11 @@ namespace FirebaseCrudOperations.Controllers
 
             return View();
         }
+        public ActionResult CrudOperations()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

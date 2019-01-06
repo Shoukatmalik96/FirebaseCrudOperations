@@ -32,5 +32,9 @@ namespace FirebaseCrudOperations.Controllers
 
             return View();
         }
+        public ActionResult EmailLogin() {
+            return View();
+
+        }
     }
 }
